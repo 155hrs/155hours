@@ -13,18 +13,22 @@
             margin: 0 auto;
         }
         #title{
-          font-weight: 200 !important;
-          font-size: 20pt !important;
-          color: orangered !important;
-          padding: 0 !important;
-          margin: 0 !important;
+            font-weight: 200 !important;
+            font-size: 20pt !important;
+            color: orangered !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            text-align: left;
+        }
+        #explanation{
+            font-size: 10px;
         }
         h5{
-          font-weight: 300 !important;
-          font-size: 12pt !important;
-          color: orangered;
-          padding: none !important;
-          margin: none !important;
+            font-weight: 300 !important;
+            font-size: 12pt !important;
+            color: orangered;
+            padding: none !important;
+            margin: none !important;
         }
         p{
             font-size: 11pt;
@@ -41,7 +45,6 @@
             width: 550px;
             border: 1px solid red;
             color: red;
-            background-color: black;
         }
         #lyrics{
             position: absolute;
@@ -126,8 +129,9 @@
 <body>
     <div id="header">
         <h5 id="title">my dear melancholy,</h5>
-        <h5>the weeknd</h5>
+        <h5>the weeknd <br><span id="explanation">__feel free to drag any of the boxes around</span></h5>
     </div>
+    
     <div id="mydiv">
     <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
         <div id="mydivheader">
