@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: black;
+            color: orangered;
+            /*width: 1670px;*/
+        }
+        #wrapper{
+            margin: 0 auto;
+        }
+        #title{
+          font-weight: 200 !important;
+          font-size: 20pt !important;
+          color: orangered !important;
+          padding: 0 !important;
+          margin: 0 !important;
+        }
+        h5{
+          font-weight: 300 !important;
+          font-size: 12pt !important;
+          color: orangered;
+          padding: none !important;
+          margin: none !important;
+        }
+        p{
+            font-size: 11pt;
+            font-weight: 200;
+        }
+        #header{
+            padding-left: 25px;
+            padding-top: 20px;
+        }
+        #intro{
+            margin-left: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 550px;
+            border: 1px solid red;
+            color: red;
+            background-color: black;
+        }
+        #lyrics{
+            position: absolute;
+            left: 650px;
+            top: 280px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 600px;
+            border: 1px solid orange;
+            color: orange;
+        }
+        #audio{
+            position: absolute;
+            bottom: 95px;
+            left: 692px;
+            border: 1px solid greenyellow;
+            color: greenyellow;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        img{
+            width: 250px;
+            height: auto;
+            position: absolute;
+            left: 1000px;
+            top: 10px;
+            border: 1px solid orangered;
+        }
+        #songs{
+            position: absolute;
+            top: 400px;
+            left: 190px;
+            width: 200px;
+            border: 1px solid green;
+            color: green;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #mydiv {
+            position: absolute;
+            z-index: 9;
+            /*background-color: #f1f1f1;*/
+            /*border: 1px solid #d3d3d3;*/
+        }
+        #mydivtwo {
+            position: absolute;
+            z-index: 9;
+            /*background-color: #f1f1f1;*/
+            /*border: 1px solid #d3d3d3;*/
+        }
+        #mydivthree {
+            position: absolute;
+            z-index: 9;
+            /*background-color: #f1f1f1;*/
+            /*border: 1px solid #d3d3d3;*/
+            cursor: move;
+        }
+        #mydivfour {
+            position: absolute;
+            z-index: 9;
+            /*background-color: #f1f1f1;*/
+            /*border: 1px solid #d3d3d3;*/
+            cursor: move;
+        }
+        #mydivheader {
+            padding: 10px;
+            cursor: move;
+            z-index: 10;
+            color: red;
+        }
+        #mydivheadertwo {
+            padding: 10px;
+            cursor: move;
+            z-index: 10;
+            color: orange;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="header">
+        <h5 id="title">my dear melancholy,</h5>
+        <h5>the weeknd</h5>
+    </div>
+    <div id="mydiv">
+    <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+        <div id="mydivheader">
+            <div id="intro">
+                <p>My Dear Melancholy (stylized as My Dear Melancholy,) is the first extended play by Canadian singer-songwriter the Weeknd. It was released on March 30, 2018, through XO and Republic Records. Primarily produced by Frank Dukes, who serves as an executive producer alongside the Weeknd, it features contributions from Gesaffelstein, as well as Mike Will Made It, DaHeala, Skrillex and Daft Punk's Guy-Manuel de Homem-Christo, among others. <br> <br>
+                My Dear Melancholy has been described as a return to the darker style of the Weeknd's earlier work, such as Trilogy (2012) and Kiss Land (2013). The EP was supported by the lead single, "Call Out My Name". It received generally favourable reviews and debuted at number one on the US Billboard 200.</p>
+            </div>
+        </div>
+    </div>
+    <div id="mydivtwo">
+        <div id="lyrics">
+            <div id="mydivheadertwo">
+                <p>The project has been described as "darker" than the Weeknd's previous studio releases Beauty Behind the Madness and Starboy, and has been described as a return to his earlier work though with more electronic music based production with Israel Daramola from Spin describing it as him "returning to the darkened drug den sounds of his earlier work". My Dear Melancholy is characterized as an alternative R&B, R&B and electropop project with production credits from Skrillex and Guy-Manuel de Homem-Christo from Daft Punk. My Dear Melancholy's only feature is techno artist Gesaffelstein who produced the tracks "I Was Never There" and "Hurt You". <br><br>
+                Lyrically, My Dear Melancholy focuses on heartbreak and anger related to a breakup. The lyrics focus around the Weeknd's past relationships, mainly his highly publicized romances with model Bella Hadid and singer and actress Selena Gomez. The theme is a complete change from the Weeknd's past two projects which were pop-based and more mainstream. The Weeknd sings in relation to Gomez's kidney transplant operation and her relationship with Justin Bieber with CNN's Lisa Respers France labelling Gomez as the Weeknd's "muse". The Weeknd reworks Gomez's lyrics from the song "Same Old Love" on the song "Wasted Times" in a way that Billboard described as "tormenting".</p>
+            </div>
+        </div>
+    </div>
+    <div id="mydivthree">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/MyDearMelancholy_-_album_by_The_Weeknd.jpg" alt="people">
+    </div>
+    <div id="mydivfour">
+        <div id="songs">
+            <p id="list">list of songs in the ep</p>
+            <ol>
+            <li>call out my name</li>
+            <li>try me</li>
+            <li>wasted times</li>
+            <li>i was never there</li>
+            <li>hurt you</li>
+            <li>privilege</li>
+            </ol>
+        </div>
+    </div>
+    <script>
+        // Make the DIV element draggable:
+        dragElement(document.getElementById("mydiv"));
+        dragElement(document.getElementById("mydivtwo"));
+        dragElement(document.getElementById("mydivthree"));
+        dragElement(document.getElementById("mydivfour"));
+
+        function dragElement(elmnt) {
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        if (document.getElementById(elmnt.id + "header")) {
+            // if present, the header is where you move the DIV from:
+            document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+        } else {
+            // otherwise, move the DIV from anywhere inside the DIV: 
+            elmnt.onmousedown = dragMouseDown;
+        }
+
+        function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // get the mouse cursor position at startup:
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            // call a function whenever the cursor moves:
+            document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // calculate the new cursor position:
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            // set the element's new position:
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            // stop moving when mouse button is released:
+            document.onmouseup = null;
+            document.onmousemove = null;
+        }
+        }
+    </script>
+</body>
