@@ -51,7 +51,7 @@
         #lyrics{
             position: absolute;
             left: 650px;
-            top: 280px;
+            top: 200px;
             padding-left: 20px;
             padding-right: 20px;
             width: 600px;
@@ -60,25 +60,21 @@
         }
         #audio{
             position: absolute;
-            bottom: 95px;
-            left: 692px;
             border: 1px solid greenyellow;
             color: greenyellow;
-            padding-left: 20px;
-            padding-right: 20px;
+            padding: 20px;
         }
         img{
             width: 250px;
             height: auto;
             position: absolute;
             left: 1000px;
-            top: 10px;
             border: 1px solid orangered;
         }
         #songs{
             position: absolute;
             top: 400px;
-            left: 190px;
+            left: 375px;
             width: 200px;
             border: 1px solid green;
             color: green;
@@ -108,6 +104,15 @@
         }
         #mydivfour {
             position: absolute;
+            z-index: 9;
+            /*background-color: #f1f1f1;*/
+            /*border: 1px solid #d3d3d3;*/
+            cursor: move;
+        }
+        #mydivfive {
+            position: absolute;
+            top: 400px;
+            left: 60px;
             z-index: 9;
             /*background-color: #f1f1f1;*/
             /*border: 1px solid #d3d3d3;*/
@@ -167,12 +172,21 @@
             </ol>
         </div>
     </div>
+    <div id="mydivfive">
+        <div id="audio">
+            <p>listen to my favorite song from the album, wasted times.</p>
+            <audio controls>
+                <source src="wasted times.mp3" type="audio/mpeg">
+              </audio>
+        </div>
+    </div>
     <script>
         // Make the DIV element draggable:
         dragElement(document.getElementById("mydiv"));
         dragElement(document.getElementById("mydivtwo"));
         dragElement(document.getElementById("mydivthree"));
         dragElement(document.getElementById("mydivfour"));
+        dragElement(document.getElementById("mydivfive"));
 
         function dragElement(elmnt) {
         var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
