@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>homepage</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.scss">
+    </head>
+    <body>
+        <div class="cursor"></div>
+        <a id="enter" href="https://www.155hrs.com">click to enter 155 hours</a>
+
+        <script>
+            const cursor = document.querySelector(".cursor");
+            document.addEventListener("mousemove",e => {
+                console.log(e);
+                cursor.setAttribute("style","top: "+(e.pageY-20)+"px; left: "+(e.pageX-20)+"px;")
+            })
+
+            document.addEventListener("click", () => {
+                cursor.classList.add("expand");
+
+                setTimeout(() => {
+                    cursor.classList.remove("expand");
+                }, 500)
+            })
+        </script>
+    </body>
+</html>
