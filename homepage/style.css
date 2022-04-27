@@ -14,8 +14,8 @@ body{
     border: 1px solid white;
     border-radius: 50%;
     position: absolute;
-    //transition-duration: 200ms;
-    //transition-timing-function: ease-out;
+    /*transition-duration: 200ms;
+    transition-timing-function: ease-out;*/
     animation: cursorAnim 1s infinite alternate;
 }
 .cursor::after{
