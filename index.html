@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
         body{
-            background: ghostwhite;
+            background: rgb(241, 241, 241);
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         a{
@@ -21,15 +21,58 @@
             color: gray;
         }
         h1{
-            font-weight: 300;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-align: center;
             color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
         }
         #header{
-            width: fit-content;
-            padding: 0px 20px;
+            width: 300px;
+            height: 300px;
+            padding-left: 75px;
+            text-align: center;
+        }
+        #first{
+            padding-left: 60px;
+            padding-left: 60px;
+            width: 20px;
+            /*display: block;*/
+            float: left;
+        }
+        #second{
+            padding-left: 60px;
+            width: 20px;
+            /*display: block;*/
+            float: left;
+        }
+        #third{
+            padding-left: 60px;
+            width: 20px;
+            /*display: block;*/
+            float: left;
+        }
+        #text{
+            margin-left: 20px;
+            height: 100%;
+            width: 30%;
+            padding-left: 65px;
+        }
+        #text p{
+            font-size: 12px;
+        }
+        #text a{
+            color: red;
         }
         #body{
             padding: 0px 20px;
+            width: 65%;
+            height: 100%;
+            position: absolute;
+            float: right;
+            right: 0%;
+            top: 20px;
         }
         #body a{
             font-size: larger;
@@ -40,9 +83,9 @@
         #draggable{
             padding: 5px 0px;
             width: 270px;
-            display: block;
-            float: left;
-            padding-right: 20px;
+            /*display: block;*/
+            float: right;
+            padding-left: 20px;
         }
         #draggable img{
             width: 270px;
@@ -51,9 +94,9 @@
         #one55{
             padding: 5px 0px;
             width: 270px;
-            display: block;
-            float: left;
-            padding-right: 20px;
+            /*display: block;*/
+            float: right;
+            padding-left: 20px;
         }
         #one55 img{
             width: 270px;
@@ -62,9 +105,9 @@
         #one55hours{
             padding: 5px 0px;
             width: 270px;
-            display: block;
-            float: left;
-            padding-right: 20px;
+            /*display: block;*/
+            float: right;
+            padding-left: 20px;
         }
         #one55hours img{
             width: 270px;
@@ -82,17 +125,53 @@
             background-color: red;
             border: none;
         }
+        #contacts a{
+            color: gray;
+            font-size: 11px;
+        }
+        #contacts a:hover{
+            color: black;
+        }
+        #contacts{
+            padding-left: 117px;
+        }
     </style>
 </head>
 <body>
     <div id="header">
-        <h1>155 hours github projects</h1>
-        <hr>
+        <h1 id="first">1<br>
+            5<br>
+            5<br>
+            H<br>
+            O<br>
+            U<br>
+            R<br>
+            S<br>
+        </h1>
+        <h1 id="second">
+            G<br>
+            I<br>
+            T<br>
+            H<br>
+            U<br>
+            B<br>
+        </h1>
+        <h1 id="third">
+            P<br>
+            R<br>
+            O<br>
+            J<br>
+            E<br>
+            C<br>
+            T<br>
+            S<br>
+        </h1>
+        
     </div>
     <div id="body">
         <div id="one55hours">
-            <a href="155 hours/155hours.html" target="blank"><img src="images/155.png" alt="155"></a>
-            <a href="155 hours/155hours.html" target="blank">155 hours interactive logo</a>
+            <a href="155hours.html" target="blank"><img src="images/155.png" alt="155"></a>
+            <a href="155hours.html" target="blank">155 hours interactive logo</a>
             <p>may 2020.</p>
         </div>
         <div id="draggable">
@@ -101,9 +180,15 @@
             <p>march 2022.</p>
         </div>
         <div id="one55">
-            <a href="homepage/home.html" target="blank"><img src="images/homepage.png" alt="homepage"></a>
-            <a href="homepage/home.html" target="blank">a new homepage to 155 hours</a>
+            <a href="home.html" target="blank"><img src="images/homepage.png" alt="homepage"></a>
+            <a href="home.html" target="blank">a new homepage to 155 hours</a>
             <p>april 2022.</p>
         </div>
+    </div>
+    <div id="text">
+        <p> an extension to what is presented on <a href="155hrs.com" target="blank">155hrs.com</a> </p>
+    </div>
+    <div id="contacts">
+        <p><a href="https://www.instagram.com/belinda.0215/">instagram</a> • <a href="https://vsco.co/155hours/gallery">vsco</a> • <a href="https://open.spotify.com/user/11159339055">spotify</a> • <a href="https://www.linkedin.com/in/155hours/">linkedin</a></p>
     </div>
 </body>
