@@ -75,7 +75,7 @@ a:hover{
     width: 100px;
     height: 100px;
     float: left;
-    padding-left: 9%;
+    margin-left: 9%;
     margin-top: auto;
     margin-bottom: auto;
 }
