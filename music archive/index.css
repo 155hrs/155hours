@@ -98,6 +98,9 @@ a:hover{
     float: left;
     width: 100px;
 }
+#placeholder{
+    visibility: hidden;
+}
 #aboutme p{
     padding-left: 20%;
 }
