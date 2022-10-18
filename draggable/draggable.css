@@ -1,0 +1,144 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: orangered;
+    /*width: 1670px;*/
+}
+#wrapper{
+    margin: 0 auto;
+}
+#title{
+    font-weight: 200 !important;
+    font-size: 20pt !important;
+    color: orangered !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left;
+}
+#explanation{
+    font-size: 10px;
+}
+h5{
+    font-weight: 300 !important;
+    font-size: 12pt !important;
+    color: orangered;
+    padding: none !important;
+    margin: none !important;
+}
+p{
+    font-size: 11pt;
+    font-weight: 200;
+}
+#header{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+#intro{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 550px;
+    border: 1px solid red;
+    color: red;
+    text-transform: lowercase;
+}
+#lyrics{
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 600px;
+    border: 1px solid orange;
+    color: orange;
+    text-transform: lowercase;
+}
+#audio{
+    position: absolute;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    padding: 20px;
+}
+img{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: 1000px;
+    border: 1px solid orangered;
+}
+#songs{
+    position: absolute;
+    top: 400px;
+    left: 375px;
+    width: 200px;
+    border: 1px solid green;
+    color: green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#author{
+    position: absolute;
+    border: 1px solid yellow;
+    color: yellow;
+    padding: 20px;
+    width: 500px;
+    text-transform: lowercase;
+}
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid #d3d3d3;*/
+}
+#mydivtwo {
+    position: absolute;
+    z-index: 9;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid #d3d3d3;*/
+}
+#mydivthree {
+    position: absolute;
+    z-index: 9;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid #d3d3d3;*/
+    cursor: move;
+}
+#mydivfour {
+    position: absolute;
+    z-index: 9;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid #d3d3d3;*/
+    cursor: move;
+}
+#mydivfive {
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    z-index: 9;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid #d3d3d3;*/
+    cursor: move;
+}
+#mydivsix {
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    z-index: 9;
+    /*background-color: #f1f1f1;*/
+    /*border: 1px solid #d3d3d3;*/
+    cursor: move;
+}
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    color: red;
+}
+#mydivheadertwo {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    color: orange;
+}

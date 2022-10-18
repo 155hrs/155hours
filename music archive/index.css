@@ -94,7 +94,7 @@ a:hover{
     font-size: smaller;
 }
 .year{
-    padding-left: 5%;
+    margin-left: 5%;
     float: left;
     width: 100px;
 }

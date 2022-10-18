@@ -1,0 +1,114 @@
+body{
+    padding: 0px;    
+    margin: 0px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 180px;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 0px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+#clear{
+    width: 70px;
+}
+#counter{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+#song{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 30px;
+}
+#encouragement{
+    color: rgb(216, 87, 87);
+    margin: 10px;
+}
+audio{
+    display: none;
+}
+#one{
+    opacity: 0.2;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    width: 300px;
+    height: auto;
+    z-index: 0;}
+#two{
+    opacity: 0.2;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 400px;
+    height: auto;
+    z-index: 0;
+}
+#three{
+    opacity: 0.2;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 300px;
+    height: auto;
+    z-index: 0;
+}
+#four{
+    opacity: 0.2;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 200px;
+    height: auto;
+    z-index: 0;
+}
+#five{
+    opacity: 0.2;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 200px;
+    height: auto;
+    z-index: 0;
+}
+#six{
+    opacity: 0.2;
+    position: absolute;
+    top: 25%;
+    left: 72%;
+    width: 350px;
+    height: auto;
+    z-index: 0;
+}
+#seven{
+    opacity: 0.2;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 430px;
+    height: auto;
+    z-index: 0;
+}
+#wrapper{
+    z-index: 1;
+}
