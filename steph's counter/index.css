@@ -112,3 +112,6 @@ audio{
 #wrapper{
     z-index: 1;
 }
+#author{
+    font-size: 13px;
+}
