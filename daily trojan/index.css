@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "PoppinsBold";
+    src: url(Poppins/Poppins-Bold.ttf);
+}
+*::selection{
+    color: #230000;
+    background: #AE8A19;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #230000;
+}
+h1, h3, a, p{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#landingpage{
+    height: 100vh;
+    background-color: #230000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#landingpage img{
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    /* left: 10%; */
+}
+#landingpagetext{
+    margin-left: auto;
+    margin-right: auto;
+}
+#uscafterdark{
+    /* background: linear-gradient(6.42deg, #FFFFFF 4.3%, rgba(255, 255, 255, 0) 83.72%); */
+    font-family: PoppinsBold;
+    font-weight: 800;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+#landingpagetext h3{
+    color: #FFFFFF;
+    font-family: PoppinsRegular;
+    font-size: 30px
+}
+#landingpagetext a{
+    color: #AE8A19;
+    font-family: PoppinsRegular;
+    font-size: 24px;
+    line-height: 45px;
+}
+#landingpagetext a:hover{
+    color: ghostwhite;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#letterlink{
+    opacity: 80%;
+}
+#storieslink{
+    opacity: 70%;
+}
+#contributorslink{
+    opacity: 50%;
+}
+#letter{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    background-color: #230000;
+    align-items: center;
+    text-align: left;
+    padding: 50px 100px 0px 100px;
+}
+#letter h1{
+    font-size: 60px;
+    color: #230000;
+    letter-spacing: 0.2em;
+    background: linear-gradient(90deg, #6E2A0C 3.12%, #A46BD9 53.12%, #AE8A19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 0.1em transparent;
+    padding-bottom: 50px;
+}
+#letter p{
+    font-size: 32px;
+}
+#editor{
+    text-align: right;
+}
+#editor h3, p{
+    font-size: 36px;
+}
+#stories{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    background-color: #230000;
+    align-items: center;
+    text-align: left;
+    padding: 50px 100px 0px 100px;
+}
+#stories h1{
+    font-size: 60px;
+    color: #230000;
+    letter-spacing: 0.2em;
+    background: linear-gradient(90deg, #6E2A0C 3.12%, #A46BD9 53.12%, #AE8A19 
+    100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 0.1em transparent;
+}
+#contributors{
+    height: fit-content;
+    background-color: #1E1E1E;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-family: PoppinsRegular;
+}
+#contributors h1{
+    font-size: 40px;
+    font-family: PoppinsBold;
+}
+#contributornames{
+    padding-top: 30px;
+}
+#contributornames p{
+    font-size: 24px;
+    line-height: 40pt;
+}
+#copyright{
+    padding-top: 50px;
+    font-size: 24px;
+}
