@@ -355,7 +355,7 @@ z-index: 1;
     bottom:0px;
     margin-left:10%;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 375px){
     #leftstrip{
         position: absolute;
         width: 224.62px;
