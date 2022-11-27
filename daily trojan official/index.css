@@ -180,10 +180,8 @@ h1, h3, a, p{
 }
 #story2{
     float: left;
-    /* border: 1px solid red; */
 }
 #story3{
-    /* border: 1px solid white; */
     margin-right: 100px;
     margin-top: 50px;
     float: left;
@@ -191,7 +189,6 @@ h1, h3, a, p{
 #story4{
     margin-top: 50px;
     float: left;
-    /* border: 1px solid red; */
 }
 .words{
     margin-top: 10px;
@@ -220,8 +217,6 @@ h1, h3, a, p{
     height: 500px;
     object-fit: cover;
     object-position: 50% 50%;
-    /* float: left;
-    border: 1px solid red; */
 }
 .titles{
     font-size: 2rem;
@@ -355,7 +350,7 @@ z-index: 1;
     bottom:0px;
     margin-left:10%;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 600px){
     #leftstrip{
         position: absolute;
         width: 224.62px;
@@ -398,34 +393,27 @@ z-index: 1;
         -webkit-text-stroke: 0.1em transparent;
     }
     #thumbnails{
-        width: 600px;
+        width: 300px;
         margin: 50px auto 0 auto;
         display: flex;
-        /* border: 1px solid green; */
     }
     #images{
         float: left;
     }
     #story1{
-        /* border: 1px solid white; */
-        /* margin-right: 100px; */
         float: left;
     }
     #story2{
         float: left;
         margin-top: 50px;
-        /* border: 1px solid red; */
     }
     #story3{
-        /* border: 1px solid white; */
-        /* margin-right: 100px; */
         margin-top: 50px;
         float: left;
     }
     #story4{
         margin-top: 50px;
         float: left;
-        /* border: 1px solid red; */
     }
     .words{
         margin-top: 10px;
