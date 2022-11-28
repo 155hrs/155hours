@@ -1,14 +1,3 @@
-/* @font-face {
-    font-family: "PoppinsRegular";
-    src: url(Poppins/Poppins-Regular.ttf);
-}
-@font-face {
-    font-family: "PoppinsBold";
-    src: url(Poppins/Poppins-Bold.ttf);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap'); */
-
 *::selection{
     color: #230000;
     background: #AE8A19;
@@ -25,14 +14,14 @@ h1, h3, a, p{
 }
 #header{
     background-color: #1E1E1E;
-    height: 100px;
+    height: 70px;
     position: relative;
     margin: 0px;
     padding: 0px;
     z-index: 1;
 }
 #header img{
-    width: 250px;
+    width: 130px;
     height: auto;
     position: absolute;
     top: 50%;
@@ -43,9 +32,9 @@ h1, h3, a, p{
     padding: 0px;
 }
 #leftstrip{
-    position: absolute;
     width: 289.78px;
     height: 100vh;
+    position: absolute;
     left: 24.3%;
     margin: 0 auto;
     top: 0px;
@@ -54,9 +43,9 @@ h1, h3, a, p{
     transform: rotate(19.29deg);
 }
 #rightstrip{
-    position: absolute;
     width: 289.78px;
     height: 100vh;
+    position: absolute;
     right: 24.3%;
     margin: 0 auto;
     top: -4px;
@@ -74,7 +63,7 @@ h1, h3, a, p{
 #landingpage img{
     width: 300px;
     position: absolute;
-    top: 100px;
+    top: 70px;
     /* left: 200px; */
     left: 13%;
     z-index: 1;
@@ -151,7 +140,7 @@ h1, h3, a, p{
     background-color: #230000;
     align-items: center;
     text-align: left;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 100px 150px 100px;
     position:relative;
 }
 #stories h1{
@@ -165,29 +154,35 @@ h1, h3, a, p{
     -webkit-text-stroke: 0.1em transparent;
 }
 #thumbnails{
-    width: 1100px;
+    /* width: 1100px; */
     margin: 50px auto 0 auto;
     display: flex;
     /* border: 1px solid green; */
 }
 #images{
     float: left;
+    margin-bottom: 50px;
+}
+.row{
+    margin-bottom: 50px;
 }
 #story1{
     /* border: 1px solid white; */
-    margin-right: 100px;
+    margin-right: 50px;
     float: left;
 }
 #story2{
+    margin-right: 50px;
     float: left;
 }
 #story3{
-    margin-right: 100px;
-    margin-top: 50px;
+    margin-right: 50px;
+    /* margin-top: 50px; */
     float: left;
 }
 #story4{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-right: 50px;
     float: left;
 }
 .words{
@@ -236,19 +231,18 @@ h1, h3, a, p{
     font-family: poppins;
 }
 #contributors h1{
-    font-size: 3rem;
+    font-size: 1.2rem;
     font-family: poppins;
 }
 #contributornames{
-    padding-top: 30px;
+    padding-top: 10px;
 }
 #contributornames p{
-    font-size: 1.2rem;
-    line-height: 40pt;
+    font-size: 0.8rem;
 }
 #copyright{
-    padding-top: 50px;
-    font-size: 1.2rem;
+    padding-top: 10px;
+    font-size: 0.8rem;
 }
 
 /* .carousel {
@@ -421,29 +415,11 @@ z-index: 1;
     .words a{
         text-decoration: none;
     }
-    .words a:hover{
-        color: #AE8A19;
-        -moz-transition: all 2s;
-        -webkit-transition: all 2s;
-        -o-transition: all 2s;
-        transition: all 0.5s;
-        cursor: pointer;
-    }
-    #images a:hover{
-        color: #AE8A19;
-        -moz-transition: all 2s;
-        -webkit-transition: all 2s;
-        -o-transition: all 2s;
-        transition: all 0.5s;
-        cursor: pointer;
-    }
     #stories img{
         width: 500px;
         height: 500px;
         object-fit: cover;
         object-position: 50% 50%;
-        /* float: left;
-        border: 1px solid red; */
     }
     .titles{
         font-size: 2rem;
