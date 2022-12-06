@@ -1,0 +1,141 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1, h3, ul, a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    color: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    color: #A4381E;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+#header{
+    height: 100vh;
+    background-color: maroon;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0px 10% 0px 10%;
+}
+#header a:hover{
+    color: black;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#header h1{
+    /* padding: 0px 0px 0px 10%; */
+    width: fit-content;
+}
+#headerlinks{
+    margin: 0 auto;
+    width: fit-content;
+    /* padding: 0px 0px 0px 0px; */
+    line-height: 30px;
+}
+
+
+#homepage{
+    height: 100vh;
+    /* width: 100%; */
+    color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: black;
+}
+#homepage a{
+    font-style: italic;
+}
+#bioimg{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#name{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-left: 20px;
+}
+#bio{
+    width: 750px;
+    margin-right: auto;
+    margin-left: 30px;
+    line-height: 20px;
+    font-size: 11pt;
+    text-transform: lowercase;
+    padding-right: 20px;
+}
+
+
+.wrapper{
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+
+#whattopack{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+
+#usc{
+    height: 100vh;
+    background: maroon;
+    display: flex;
+    align-items: center;
+    color: gold;
+}
+#usc h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#list{
+    line-height: 25px;
+    font-size: small;
+}
+
+
+#dormessentials{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#essentials{
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+}
+
+
+#homesick{
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    color: white;
+}
