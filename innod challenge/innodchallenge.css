@@ -1,0 +1,218 @@
+*::selection{
+    color: #230000;
+    background: white;
+    color: black;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f0f0f0;
+}
+.clearfloat{
+    clear: both;
+}
+h1, h2, h3, a, p, img{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+a:hover{
+    color: #9a2133;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 0.5s;
+}
+#landingpage{
+    height: 100vh;
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+#landingpage h1{
+    color: white;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#tagline{
+    font-size: 15pt;
+    font-style: italic;
+}
+#body h1{
+    font-family: kepler-std,serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #9a2133;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#items {
+    width: 67%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+#items img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-bottom: 10px;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+.nametags {
+    float: left;
+    width: 210px;
+    margin: 10px;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+.nametag {
+    width: 200px;
+}
+.nametag p {
+    text-align: left;
+    width: 200px;
+    font-family: transducer,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0px 15px 15px 15px;
+}
+.position{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+#footer{
+    height: fit-content;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+#footerborder{
+    height: .5px;
+	background-color: black;
+    border: 0px;
+    margin-top: 100px;
+}
+#footer img{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    padding: 0px;
+}
+#footerlinks{
+    padding: 50px 0px 25px 0px;
+    text-transform: uppercase;
+}
+#games{
+    text-transform: uppercase;
+}
+#socialicons{
+    padding: 25px 0px 0px 0px;
+}
+#socialicons a{
+    font-size: 1.4rem;
+}
+i{
+    color: #f6cb4e;
+    width: 20px;
+}
+#copyright{
+    padding-top: 50px;
+    font-size: 0.8rem;
+}
+a, p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+    #links{
+        display: none;
+    }
+    #header img{
+        width: 150px;
+        height: auto;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin: 0px;
+        padding: 0px;
+    }
+    #headerborder{
+        height: .5px;
+        background-color: black;
+        border: 0px;
+        margin-top: -30px;
+    }
+    #navbar{
+        display: block;
+    }
+    #body h1{
+        font-family: kepler-std,serif;
+        font-weight: 400;
+        font-style: italic;
+        color: #9a2133;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #body{
+        padding: 0px;
+        margin: 0px;
+    }
+    #items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #items img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .nametags {
+        width: 300px;
+    }
+    .nametag {
+        width: 300px;
+    }
+    .nametag p {
+        text-align: left;
+        width: 300px;
+        font-family: transducer,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        padding-left: 13px;
+        padding-bottom: 10px;
+    }
+}
