@@ -72,10 +72,11 @@ a:hover{
     margin: 200px 0 0 0;
 }
 #playlist img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     float: left;
     margin-left: 9%;
+    margin-right: 9%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -83,7 +84,7 @@ a:hover{
     height: 1px;
     background-color: rgba(211, 211, 211, 0.391);
     border: none;
-    margin: 100px 0 100px 0;
+    margin: 160px 0 100px 0;
 }
 .playlistname{
     padding-left: 35%;
