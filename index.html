@@ -32,9 +32,11 @@
         }
         #header{
             width: 300px;
-            /* height: 300px; */
             height: 150px;
-            padding-left: 75px;
+            position: absolute;
+            left: 75px;
+            top: 50%;
+            transform: translateY(-50%);
             text-align: center;
         }
         #first{
@@ -197,15 +199,16 @@
             background-color: red;
             border: none;
         }
-        #contacts a{
+        #small{
             color: gray;
             font-size: 11px;
         }
-        #contacts a:hover{
-            color: black;
+        #small a{
+            color: #C63E1D;
         }
-        #contacts{
-            padding-left: 117px;
+        #links a{
+            font-size: 11px;
+            color: gray;
         }
     </style>
 </head>
@@ -220,6 +223,12 @@
         <h1 >
             PROJECTS
         </h1>
+        <!-- <div id="text"> -->
+        <p id="small"> an extension to what is presented on <a href="155hrs.com" target="blank">155hrs.com</a> </p>
+    <!-- </div>
+    <div id="contacts"> -->
+        <p id="links"><a href="https://www.instagram.com/belinda.0215/" target="_blank">instagram</a> • <a href="https://vsco.co/155hours/gallery" target="_blank">vsco</a> • <a href="https://open.spotify.com/user/11159339055" target="_blank">spotify</a> • <a href="https://www.linkedin.com/in/155hours/" target="_blank">linkedin</a></p>
+    <!-- </div> -->
         <!-- <h1 id="first">1<br>
             5<br>
             5<br>
@@ -247,7 +256,6 @@
             T<br>
             S<br>
         </h1> -->
-        
     </div>
     <div id="body">
         <div id="one55hours">
@@ -295,11 +303,5 @@
             <a href="NGD flip card/Flip and Animate Card.html" target="blank">NGD card design</a>
             <p>july 2025.</p>
         </div>
-    </div>
-    <div id="text">
-        <p> an extension to what is presented on <a href="155hrs.com" target="blank">155hrs.com</a> </p>
-    </div>
-    <div id="contacts">
-        <p><a href="https://www.instagram.com/belinda.0215/" target="_blank">instagram</a> • <a href="https://vsco.co/155hours/gallery" target="_blank">vsco</a> • <a href="https://open.spotify.com/user/11159339055" target="_blank">spotify</a> • <a href="https://www.linkedin.com/in/155hours/" target="_blank">linkedin</a></p>
     </div>
 </body>
