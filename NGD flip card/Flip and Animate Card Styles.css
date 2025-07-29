@@ -128,14 +128,17 @@ body {
 }
 
 .front {
-    /* background: #FAFAFA;
-    background: linear-gradient(124deg, rgba(250, 250, 250, 1) 0%, rgba(211, 225, 242, 1) 36%, rgba(234, 223, 237, 1) 71%, rgba(250, 250, 250, 1) 100%); */
+    background: #FAFAFA;
+    background: linear-gradient(124deg, rgba(250, 250, 250, 1) 0%, rgba(211, 225, 242, 1) 36%, rgba(234, 223, 237, 1) 71%, rgba(250, 250, 250, 1) 100%);
     font-family: "PPEditorialNewItalic", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
     /* background: #fae8f0;
     background: linear-gradient(135deg, rgba(250, 232, 240, 1) 0%, rgba(251, 237, 243, 1) 15%, rgba(250, 250, 250, 1) 27%, rgba(227, 236, 246, 1) 47%, rgba(218, 230, 245, 1) 78%, rgba(250, 250, 250, 1) 100%); */
-    background: #020024;
-    background: linear-gradient(60deg, rgba(2, 0, 36, 1) 0%, rgba(198, 62, 29, 1) 66%, rgba(225, 158, 142, 1) 100%);
+    
+    /* background: #020024;
+    background: linear-gradient(60deg, rgba(2, 0, 36, 1) 0%, rgba(198, 62, 29, 1) 66%, rgba(225, 158, 142, 1) 100%); */
+
+    
 }
 
 /* .front:hover {
