@@ -228,7 +228,7 @@ body {
 /* @media (max-width: 640px) { */
 @media (max-width: 750px) {
     .flip-card {
-        width: 400px;
+        width: 350px;
         height: 600px;
     }
     
