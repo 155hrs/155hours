@@ -128,9 +128,10 @@ body {
 }
 
 .front {
-    background: #FAFAFA;
-    background: linear-gradient(124deg, rgba(250, 250, 250, 1) 0%, rgba(211, 225, 242, 1) 36%, rgba(234, 223, 237, 1) 71%, rgba(250, 250, 250, 1) 100%);
+    /* background: #FAFAFA;
+    background: linear-gradient(124deg, rgba(250, 250, 250, 1) 0%, rgba(211, 225, 242, 1) 36%, rgba(234, 223, 237, 1) 71%, rgba(250, 250, 250, 1) 100%); */
     font-family: "PPEditorialNewItalic", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #fafafa;
 
     /* background: #fae8f0;
     background: linear-gradient(135deg, rgba(250, 232, 240, 1) 0%, rgba(251, 237, 243, 1) 15%, rgba(250, 250, 250, 1) 27%, rgba(227, 236, 246, 1) 47%, rgba(218, 230, 245, 1) 78%, rgba(250, 250, 250, 1) 100%); */
@@ -138,7 +139,23 @@ body {
     /* background: #020024;
     background: linear-gradient(60deg, rgba(2, 0, 36, 1) 0%, rgba(198, 62, 29, 1) 66%, rgba(225, 158, 142, 1) 100%); */
 
-    
+    /* background: #F9DC5C; */
+    /* background: url('d205e79e-9638-4dd3-99e2-ebd160c31b1b.jpg') repeat; */
+    /* background: url('d17942ff-8afd-46dd-b548-d85c13743956.jpg') repeat; */
+    /* background-size: auto 100%; */
+    /* background: linear-gradient(60deg, rgba(249, 220, 92, 0.6) 0%, rgba(250, 229, 136, 0.6) 24%, rgba(252, 239, 180, 0.6) 50%, rgba(253, 248, 225, 0.6) 67%, rgba(251, 232, 149, 0.6) 83%, rgba(249, 220, 92, 0.6) 100%); */
+}
+
+.front::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    /* background: url('d17942ff-8afd-46dd-b548-d85c13743956.jpg') repeat; */
+    background: url('O9FG4X0.jpg') repeat;
+    background-size: auto 100%;
+    opacity: 0.2; /* adjust this value */
+    pointer-events: none;
+    z-index: 1;
 }
 
 /* .front:hover {
@@ -147,9 +164,22 @@ body {
 
 .back {
     /* Keep the 70% opacity effect, but add a solid background underneath to block front text */
-    background: linear-gradient(124deg, rgba(250, 250, 250, 0.6) 0%, rgba(211, 225, 242, 0.6) 36%, rgba(234, 223, 237, 0.6) 71%, rgba(250, 250, 250, 0.6) 100%),
-                #fafafa;
+    /* background: linear-gradient(124deg, rgba(250, 250, 250, 0.6) 0%, rgba(211, 225, 242, 0.6) 36%, rgba(234, 223, 237, 0.6) 71%, rgba(250, 250, 250, 0.6) 100%),
+                #fafafa; */
+    background: rgba(250, 250, 250, 1);
     transform: rotateY(180deg);
+}
+
+.back::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: url('d17942ff-8afd-46dd-b548-d85c13743956.jpg') repeat;
+    /* background: url('O9FG4X0.jpg') repeat; */
+    background-size: auto 100%;
+    opacity: 0.2; /* adjust this value */
+    pointer-events: none;
+    z-index: 1;
 }
 
 .card-content {
@@ -176,13 +206,14 @@ body {
     font-size: 0.875rem;
     font-weight: normal;
     margin-bottom: 0.75rem;
-    color: #a5a5a5;
+    color: #7b7b7b;
 }
 
 
 .description {
     font-size: 0.875rem;
-    color: #a5a5a5;
+    /* color: #a5a5a5; */
+    color: #7b7b7b;
     line-height: 1.6;
     margin-bottom: 1rem;
     max-width: 300px;

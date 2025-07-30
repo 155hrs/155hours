@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f5;
+    background-image: radial-gradient(circle, #d1d5db 1px, transparent 1px);
+    background-size: 20px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perspective {
+    perspective: 1000px;
+}
+
+.flip-card {
+    position: relative;
+    width: 400px;
+    height: 280px;
+    transition: transform 0.7s ease-in-out;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.flip-card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 2px solid #dee2e6;
+    box-shadow: 
+        0 10px 30px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    pointer-events: none;
+}
+
+.card:hover {
+    box-shadow: 
+        0 15px 40px rgba(0, 0, 0, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.front:hover {
+    transform: scale(1.05);
+}
+
+.back {
+    transform: rotateY(180deg);
+    background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+}
+
+.card-content {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-shape {
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
+
+.text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+}
+
+.pronunciation {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0.25rem;
+    font-weight: 400;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: #6c757d;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+/* Back side styles */
+.back-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.back-title {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #495057;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+.contact-button {
+    background: #495057;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(73, 80, 87, 0.3);
+}
+
+.contact-button:hover {
+    background: #343a40;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(73, 80, 87, 0.4);
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+    .flip-card {
+        width: 350px;
+        height: 240px;
+    }
+    
+    .card-content {
+        padding: 1.5rem;
+    }
+    
+    .name {
+        font-size: 2rem;
+    }
+    
+    .profile-photo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .logo-shape svg {
+        width: 45px;
+        height: 30px;
+    }
+}
