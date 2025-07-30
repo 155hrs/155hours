@@ -257,6 +257,7 @@ body {
 
 /* Responsive design */
 /* @media (max-width: 640px) { */
+
 @media (max-width: 750px) {
     .flip-card {
         width: 300px;
